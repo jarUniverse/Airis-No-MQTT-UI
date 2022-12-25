@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Airis" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_blu</item>
+        <item name="colorPrimaryVariant">@color/black_text</item>
+        <item name="colorOnPrimary">@color/light_blu</item>
+        <item name="colorSecondary">@color/light_yello</item>
+        <item name="colorSecondaryVariant">@color/brown</item>
+        <item name="colorOnSecondary">@color/light_red</item>
+        <item name="colorTertiary">@color/dark_red</item>
+        <item name="colorAccent">@color/dark_green</item>
+        <item name="colorOnTertiary">@color/light_green</item>
+        <item name="colorOnBackground">@color/background_clr</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
